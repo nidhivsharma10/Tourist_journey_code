@@ -1,10 +1,5 @@
 package rabin_krapp;
 import javafx.util.Pair;
-
-/**
- *
- * @author Nidhi Sharma2
- */
 public class Numerical_pattern {
      public Pair<Integer,int[]> num_pattern(int prime ,int weight[]){
         int pattern =0; 
