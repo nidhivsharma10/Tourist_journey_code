@@ -1,0 +1,23 @@
+package rabin_krapp;
+import javafx.util.Pair;
+
+/**
+ *
+ * @author Nidhi Sharma2
+ */
+public class Numerical_pattern {
+     public Pair<Integer,int[]> num_pattern(int prime ,int weight[]){
+        int pattern =0; 
+        int code=0;
+        int [] totalWeight=new int[weight.length];
+         System.out.println("");
+         System.out.println("Code for cities are ::");
+        for(int i=0;i<weight.length;i++){
+            pattern=(int) (Math.pow(prime,i) * weight[i]);
+            System.out.println(pattern);
+            totalWeight[i]=pattern;
+            code=code+pattern;
+        }
+        return new Pair <>(code,totalWeight);
+     }
+}
