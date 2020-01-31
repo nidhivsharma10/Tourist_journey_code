@@ -4,10 +4,6 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 import javafx.util.Pair;
-/**
- *
- * @author Nidhi Sharma
- */
 public class Rabin_karp {
     public static void main(String[] args) {
         Scanner sc =new Scanner (System.in);
