@@ -1,0 +1,11 @@
+package rabin_krapp;
+public class DecriptPath {
+    
+    public int[] city(int prime,int[] pathValue){
+        int [] weight=new int[pathValue.length];
+       for(int i=0;i<pathValue.length;i++){
+           weight[i]= (int) ((int)pathValue[i]/(Math.pow(prime, i)));
+       } 
+        return weight;
+    }
+}
